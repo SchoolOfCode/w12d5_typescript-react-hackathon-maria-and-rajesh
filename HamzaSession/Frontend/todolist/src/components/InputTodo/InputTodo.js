@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function InputTodo() {
   return (
     <div>
-    <input ></input>
-    <button ></button>
+      <input></input>
+      <button>Add</button>
     </div>
-  )
+  );
 }
 
-export default InputTodo
+export default InputTodo;
 
-//type="text" onChange= {handleChange} value={text}
+//
 //onClick={handleClick}

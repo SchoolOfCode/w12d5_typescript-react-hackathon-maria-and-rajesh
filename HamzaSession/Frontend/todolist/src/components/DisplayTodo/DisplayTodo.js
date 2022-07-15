@@ -1,14 +1,17 @@
-import React from 'react'
+import React from "react";
 
-function DisplayTodo({todos}) {
+function DisplayTodo(props) {
+  console.log(props, "props");
+  // console.log(todos.todos, "this is todos in log");
   return (
     <div>
-        <ul>{todos.map((item)=>{
-        return <li>{item.task}</li>
+      <ul>
+        {props.todos.map((item) => {
+          return <li>{item.task}</li>;
         })}
-        </ul>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default DisplayTodo
+export default DisplayTodo;
