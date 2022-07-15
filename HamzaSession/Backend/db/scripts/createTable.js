@@ -1,5 +1,5 @@
-import { pool, query } from "../index.js";
-import pg from "pg";
+import { pool } from "../index.js";
+
 
 export async function createTable() {
   const sql_string = `CREATE TABLE IF NOT EXISTS todos (
